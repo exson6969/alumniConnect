@@ -1,0 +1,40 @@
+button {
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+    font-weight: 800;
+    background: #D3D3D3;
+    color: white;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.6em;
+   }
+   
+   
+   .label {
+    position: relative;
+    top: -1px;
+   }
+   
+   .transition {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-duration: 500ms;
+    background-color: #8BC34A;
+    border-radius: 9999px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   }
+   
+   button:hover .transition {
+    width: 14em;
+    height: 14em;
+    color: white;
+   }
+   
+   button:active {
+    transform: scale(0.97);
+   }

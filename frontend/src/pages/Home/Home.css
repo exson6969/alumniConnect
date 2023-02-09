@@ -1,0 +1,15 @@
+.welcome-text{
+    color: #9b9b9b;
+    text-align: center;
+    font-weight: 600;
+    font-size: 42px;
+    margin: 5%;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 12%;
+}
+
+.cardGroup{
+    width:800px;
+    position: absolute;   
+    left: 25%; 
+}

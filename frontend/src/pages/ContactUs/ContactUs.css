@@ -1,0 +1,21 @@
+.contact-card {
+    width: 300px;
+    height: 280px;
+    border-radius: 30px;
+    background: #e0e0e0a1;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+.contact-heading{
+    color: #8BC34A;
+    font-weight: 400;
+    margin: 20px;
+    
+}
+
+.contact-details{
+    color: #777777;
+    font-size: 16px;
+}

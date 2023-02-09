@@ -1,0 +1,38 @@
+.cardGroup{
+  display: flex;
+  justify-content: space-evenly;
+}
+.FeatureCard {
+  width: 240px;
+  height: 254px;
+  margin-top: 2%;
+  border-radius: 20px;
+  background: #f2f2f2;
+}
+
+.FeatureTitle{
+  color: #8BC34A;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.FeatureContent{
+  margin: 10px;
+  color: #8BC34A;
+  font-weight: 400;
+}
+
+.cardGroup {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 767px) {
+  .cardGroup {
+    flex-direction: column;
+    align-items: center;
+  }
+}

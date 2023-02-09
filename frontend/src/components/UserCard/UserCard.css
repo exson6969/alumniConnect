@@ -1,0 +1,52 @@
+.profile-card {
+    width: 200px;
+    height: 150px;
+    padding: 0.2rem 0.2rem;
+    background: #d3d3d380;
+    border-radius: 5px;
+    text-align: center;
+    color: #8BC34A;
+    z-index: 1;
+    margin: 30px;
+  }
+  
+  .img {
+    display: flex;
+    margin: auto ;
+    width: 75px;
+    height: 75px;
+    border: 1px solid #F8F8F8;
+    border-radius: 50%;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    z-index: 99;
+    background-color: #F8F8F8;
+  }
+  
+  .social-logo-group {
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  
+  .heading {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  svg {
+    padding: 0 5px;
+    cursor: pointer;
+  }
+  
+  .profile-card:hover .img {
+    transform: scale(1.1);
+    border: 1px solid #8BC34A;
+  }
+  
+  .profile-card:hover h1,
+  .profile-card:hover p {
+    opacity: 1;
+  }
